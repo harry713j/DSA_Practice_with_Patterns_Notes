@@ -1,4 +1,4 @@
-package array.leetcode;
+package array.leetcode.hard;
 
 public class LeetCodeHardQuestions {
     static int[] merge(int[] nums1, int[] nums2){
