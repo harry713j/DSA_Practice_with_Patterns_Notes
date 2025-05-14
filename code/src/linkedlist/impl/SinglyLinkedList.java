@@ -66,6 +66,19 @@ public class SinglyLinkedList<T> {
         size++;
     }
 
+    public void addFirst(T data){
+        if (data == null) throw new IllegalArgumentException("Data cannot be null");
+        // creating the new node
+        Node<T> newNode = new Node<>(data);
+
+        // head is null
+        if (head != null) {
+            newNode.next = head;
+        }
+        head = newNode;
+        size++;
+    }
+
     public void clear(){
         head = null;
         size = 0;
@@ -225,7 +238,7 @@ public class SinglyLinkedList<T> {
         return toDisplay.toString();
     }
 
-    private static class Node<T> {
+    public static class Node<T> {
         private T data;
         private Node<T> next;
 
