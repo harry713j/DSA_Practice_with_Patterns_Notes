@@ -1,6 +1,7 @@
 package linkedlist.leetcode.easy;
 
 public class PalindromeLinkedList {
+    // brute-force: traverse the link list and copy the values to an array or a string and check it is palindrome or not
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null){
             return true;

@@ -21,21 +21,21 @@ public class ReverseLinkedList {
         // Time: O(n)
         // Space: O(1)
     }
-
+    // https://takeuforward.org/data-structure/reverse-a-linked-list/
     public ListNode reverseListRecursive(ListNode head) {
         return reverseListRecursive(head, null);
+        // Time: O(n)
+        // Space: O(n)
     }
 
     public ListNode reverseListRecursive(ListNode head, ListNode prev) {
         if (head == null) {
             return prev;
         }
-
+        // next as a temporary node which helping us to update the head
         ListNode next = head.next;
         head.next = prev;
         return reverseListRecursive(next, head);
-        // Time: O(n)
-        // Space: O(n)
     }
 
 
