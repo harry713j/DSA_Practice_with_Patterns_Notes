@@ -7,8 +7,31 @@ import java.util.List;
 public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
         // brute-force: generating all of its sub sets by `Backtracking`
-        // Todo: I will do this one when i will learn the backtracking
-        return new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
+        subsetsHelper(nums, ans, new ArrayList<>(), 0);
+
+        return ans;
+        // time: O(2^n)
+        // space: O(n)
+    }
+
+    private void subsetsHelper(int[] nums, List<List<Integer>> ans, List<Integer> list, int index) {
+        if (index >= nums.length){
+            ans.add(new ArrayList<>(list));
+            return;
+        }
+
+        // take the element
+        list.add(nums[index]);
+        subsetsHelper(nums, ans, list, index + 1);
+
+
+        // do not take the element
+        list.remove(list.size() - 1);
+        subsetsHelper(nums, ans, list, index + 1);
+
+        // time: O(2^n)
+        // space: O(n)
     }
 
     public List<List<Integer>> subsetsWithPowerSet(int[] nums) {
