@@ -14,3 +14,12 @@
 - [Rat in Maze](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1&selectedLang=python3)
 - [Word Break](https://leetcode.com/problems/word-break/)
 - [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+
+### Stack & Queue
+- [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
+- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+- [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+
+### Implementation Problem
+- [LRU Cache](https://leetcode.com/problems/lru-cache/)

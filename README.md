@@ -1,2 +1,2 @@
 # Data Structures and Algorithms
-I am following Abdul Bari Sir's course from Udemy and Striver's DSA Sheet free.
+I am following [Abdul Bari](https://www.udemy.com/course/datastructurescncpp/?couponCode=ST18MT170625G1) Sir's course from Udemy and [Striver's DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) free.

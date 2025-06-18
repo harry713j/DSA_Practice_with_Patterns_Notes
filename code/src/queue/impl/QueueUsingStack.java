@@ -62,6 +62,6 @@ public class QueueUsingStack<T> {
     }
 
     public boolean isEmpty(){
-        return s1.isEmpty() || s2.isEmpty();
+        return s1.isEmpty() && s2.isEmpty();
     }
 }
