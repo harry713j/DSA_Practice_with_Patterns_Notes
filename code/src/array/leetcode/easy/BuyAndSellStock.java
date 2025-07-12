@@ -17,5 +17,7 @@ public class BuyAndSellStock {
         }
 
         return maxProfit;
+        // time: O(n)
+        // space: O(1)
     }
 }
